@@ -22,7 +22,7 @@
 }
 
 .tabs ul li.selected{
-   background: pink;
+   background: #ccc;
 }
 
 .tabs ul li a{
