@@ -1,0 +1,48 @@
+.tabs{
+	width: 50%;
+	overflow: hidden;
+	padding: 0 10px 10px 10px;
+}
+
+.tabs ul{
+	padding-left: 0;
+	margin-left: 0;
+	overflow: hidden;
+	margin-bottom: 0px;
+	border-left: 1px solid #ccc;	
+	width: 100%;
+	list-style-type: none;
+}
+
+.tabs ul li{
+	float: left;
+	padding: 5px 10px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.tabs ul li.selected{
+   background: #ccc;
+}
+
+.tabs ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+
+.tabs div{
+	float: left;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+}
+
+/*default*/
+
+.tab{
+	display: none;
+}
+
+.tab.one{
+	display: block;
+}
